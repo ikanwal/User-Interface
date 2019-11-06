@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
@@ -52,15 +53,154 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+ html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+} 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+  h1, h2, h3, h4, h5 {
+    font:bold;
     letter-spacing: 1px;
     margin-bottom: 15px;
-}
+}  
 
 /* Your code starts here! */
+
+ .container{
+	 width: 80%;
+	 margin:auto;
+	
+ }
+ .nav{
+	 display: inline-block;
+	 border: 0.2spx solid black;
+	 border-color:lightskyblue;
+	 background-color: lightskyblue;
+	 position:fixed;
+	 width:80%;
+ }
+ .nav a{
+	text-decoration: none;
+	color:black;
+	line-height: 70px;
+	padding: 0px 30px;
+    font-size: 16px;
+	text-align: left;  
+ }
+
+ .nav a:hover{  
+	 color:white;
+ }
+
+ .nav .logo{
+	 float:right;
+	 margin-top: 15px;
+	 margin-left: 20px;
+ }
+
+ .header-container {
+	 text-align:center;
+	}
+ .header {
+	display: inline-block;
+	width: 500px;
+	text-align: center;
+	padding:30px 0px 40px  ;
+	
+		
+ }
+.header h1{ 
+	font-size: 50pt;
+	padding:50px 50px;
+	
+}
+
+.introimg{
+	 
+width: 40%;
+	/* border: 1px dashed red; */
+display: inline-block;
+	/* TRBL*/
+padding: 150px 0px 10px 20px;
+	 
+ }
+
+ .header button{
+	padding: 5px 40px 5px;
+	border: 1px solid black;
+	font-family: 'Titillium Web';
+	vertical-align: text-bottom;
+	background-color: lightskyblue; 
+	} 
+/*@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}*/
+button:hover {
+	transform: skew(-10deg);
+	background-color:white;
+}
+button a{
+	text-decoration: none;
+	color:black;
+}
+.top-content{
+	border-top:dotted 2px black;
+	padding:30px 0px 30px;
+	margin-top:20px;
+ }
+
+ .top-content .features {
+	display: inline-block;
+	/* border: 1px solid red; */
+	width: 49%;
+	margin-right: 5px;
+}
+
+.top-content .about {
+	display: inline-block;
+	/* border: 1px solid red; */
+	width: 49%;
+	
+}
+.middle-img {
+	display: block;
+	width: 100%;
+}
+.bottom-content {
+	border-bottom:dotted 2px black;
+	padding: 20px 0 30px;
+	margin-bottom:20px;
+}
+.bottom-content .services {
+	display: inline-block;
+	width:30%;
+	margin-right:29px;
+}
+.bottom-content .product {
+	display: inline-block;
+	width:30%;
+	margin-right:29px;
+}
+.bottom-content .vision {
+	display: inline-block;
+	width:30%;	
+}
+
+
+footer{
+	text-align: center;
+	margin-top:25px;
+}

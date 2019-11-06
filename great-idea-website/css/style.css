@@ -1,0 +1,176 @@
+/* reset css */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+/* HTML5 display-role reset */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* every element is a border-box */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* start your css here */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    width: 90%;
+    margin: auto;
+    background:whitesmoke;
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* class styles */
+
+.nav_bar {
+    /* comment out border when done testing */
+    
+    margin: 1%;
+    padding: 1%;
+    
+    width: 100%;
+    border: 0.5px solid black ;
+    border-color: lightblue;
+    background:lightskyblue;
+  
+    
+}
+
+.nav_bar a {
+    display: inline-block;
+    color:black;
+   
+    margin: 1%;
+/*     width: 20%; */
+    width: Calc(10% - 5px);
+}
+
+ .nav_bar a:hover{
+ color:white;
+ }
+ .logo{
+    float:right;
+    width: Calc(10% - 1px);
+    margin:1%;
+}
+
+.content_2 {
+    /* comment out border when done testing */
+    /* border: 2px solid red; */
+    margin: 1%;
+    width: 100%;
+    height:50%;
+    display:inline-block;
+}
+
+ .text_content {
+    
+    display: inline-block;
+    /* vertical-align: top; */
+    margin: 1%;
+    width: 100%;
+    height:50%;
+    background:url(../img/Fortune_agile.jpg) no-repeat 0 -100px;
+    min-width: 200px;
+    padding:1%;
+    box-sizing: border-box;
+}
+.text_content h1{
+    text-align:center;
+}
+
+.content_3 {
+    /* border: 2px solid red; */
+    margin: 1%;
+    width: 100%;
+
+    
+}
+
+.content_3_inner {
+   
+     display: inline-block; 
+    vertical-align: top;
+    margin: 1%;
+    min-height: 20%;
+    width: 48%;
+    margin-right:12px;
+    
+    
+}
+.content_3_inner1 {
+    
+    /* display: inline-block; */
+    vertical-align: top;
+    margin: 1%;
+    min-height: 20%;
+    width: 48%;
+    float:left;
+    
+}
+
+.content_3_inner_left_box {
+    border: 2px solid rgb(1, 5, 1);
+    min-height: 200px;
+    margin: 1%;
+    width: 98%;
+    background:lightgrey;
+}
+
+.content_3_inner_right_box {
+    border: 2px solid green;
+    display: inline-block;
+    min-height: 100px;
+    margin: 1%;
+    width: 48%;
+}
+
+
+footer{
+	text-align:center;	
+}
